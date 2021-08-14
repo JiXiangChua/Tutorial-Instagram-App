@@ -20,6 +20,12 @@ class HomeViewController: UIViewController {
         
         handleNotAuthenticated()
         
+        //To force signout everytime the app reloads
+//        do {
+//            try Auth.auth().signOut()
+//        } catch {
+//            print("failed to sign out")
+//        }
         
     }
     
@@ -33,7 +39,6 @@ class HomeViewController: UIViewController {
             
         }
     }
-
 
 }
 
